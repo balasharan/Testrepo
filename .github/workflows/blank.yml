@@ -21,7 +21,9 @@ jobs:
       - name: send mail
         run: |
           echo Add other actions to build,
+
       - uses: dawidd6/action-send-mail@v3
+      - name: send mail3456789oiuytr
         with:
           server_address: smtp.gmail.com
           server_port: 465
