@@ -19,7 +19,8 @@ jobs:
           echo test, and deploy your project.
 
       - name: send mail
-      
+        run: |
+          echo Add other actions to build,
       - uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
@@ -34,3 +35,4 @@ jobs:
           from: BALA # <user@example.com>
     # Optional plain body:
           body: Build job of ${{github.repository}} completed successfully!
+    
