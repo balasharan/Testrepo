@@ -1,6 +1,6 @@
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 name: Send mail
 uses: dawidd6/action-send-mail@v3
