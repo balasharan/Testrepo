@@ -17,6 +17,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          echo "${{ toJson(github) }}"
       - name: send mail
         run: |
           echo Add other actions to build,
