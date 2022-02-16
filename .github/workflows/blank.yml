@@ -22,11 +22,11 @@ jobs:
         run: |
           echo Add other actions to build,
 
-      - uses: dawidd6/action-send-mail@v3
+      #- uses: dawidd6/action-send-mail@v3
       
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
+       # with:
+        #  server_address: smtp.gmail.com
+         # server_port: 465
           #username: ${{secrets.MAIL_USERNAME}}
           #password: ${{secrets.MAIL_PASSWORD}}
     # Required mail subject:
